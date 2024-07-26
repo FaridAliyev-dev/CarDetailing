@@ -664,3 +664,10 @@ span {
         display: none; /* Hide all paragraphs in the "How It Works" section for mobile */
     }
 }
+
+/* Tablets and Smaller Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .ride-container .box p {
+        display: none; /* Hide all paragraphs in the "How It Works" section for tablets and smaller laptops */
+    }
+}
