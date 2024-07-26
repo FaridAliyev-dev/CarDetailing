@@ -376,3 +376,56 @@ span {
     width: 100px;
     border-radius: 50%;
 }
+
+.newsletter {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0; /* Adjusted for better spacing */
+}
+
+.newsletter h2 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 20px; /* Added spacing below the heading */
+}
+
+.newsletter .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 50px; /* Rounded corners for a softer look */
+    padding: 10px;
+    width: 100%;
+    max-width: 500px; /* Adjust the width to fit the layout */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.newsletter .box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50px; /* Consistent with box styling */
+}
+
+.newsletter .box .btn {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s; /* Smooth transition effect */
+    margin-left: 10px;
+}
+
+.newsletter .box .btn:hover {
+    background-color: darkred; /* Darker shade on hover */
+}
