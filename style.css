@@ -435,3 +435,139 @@ span {
     font-weight: 900;
     text-transform: uppercase;
 }
+
+/* Mobile devices */
+@media (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .home {
+        padding: 50px 5%;
+        flex-direction: column;
+    }
+    
+    .text {
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    .house {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .services-container, .about-container, .reviews-container {
+        padding: 20px;
+        flex-direction: column;
+    }
+    
+    .services-container .box, .about-img img, .review-box {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .about-img img {
+        padding-left: 0;
+    }
+
+    .newsletter .box {
+        flex-direction: column;
+    }
+    
+    .newsletter .box input {
+        margin-bottom: 10px;
+    }
+    
+    .newsletter .box .btn {
+        margin-left: 0;
+    }
+}
+
+/* Tablets and smaller laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav {
+        padding: 15px 5%;
+    }
+    
+    .home {
+        padding: 80px 5%;
+        flex-direction: column;
+    }
+    
+    .text {
+        margin-right: 10px;
+        text-align: center;
+    }
+    
+    .house {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .services-container {
+        padding: 30px;
+    }
+    
+    .services-container .box {
+        width: 100%;
+    }
+    
+    .about-img img {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .reviews-container {
+        gap: 10px;
+    }
+
+    .review-box {
+        width: 100%;
+    }
+
+    .newsletter .box {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+/* Larger screens */
+@media (min-width: 1025px) {
+    .home {
+        flex-direction: row;
+    }
+    
+    .text {
+        margin-right: 20px;
+        text-align: left;
+    }
+    
+    .house {
+        width: 850px;
+    }
+    
+    .services-container {
+        padding: 50px;
+    }
+    
+    .about-img img {
+        width: 850px;
+        padding-left: 350px;
+    }
+    
+    .newsletter .box {
+        max-width: 500px;
+    }
+}
