@@ -571,3 +571,96 @@ span {
         max-width: 500px;
     }
 }
+
+
+/* Mobile devices */
+@media (max-width: 767px) {
+    nav {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 24px;
+    }
+
+    .menu-toggle div {
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin: 5px 0;
+        transition: all 0.3s ease;
+    }
+
+    .menu-toggle.active div:nth-child(1) {
+        transform: rotate(45deg) translateY(8px);
+    }
+
+    .menu-toggle.active div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active div:nth-child(3) {
+        transform: rotate(-45deg) translateY(-8px);
+    }
+}
+
+/* Tablets and smaller laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home {
+        padding: 80px 5%;
+    }
+}
+
+/* Larger screens */
+@media (min-width: 1025px) {
+    .home {
+        flex-direction: row;
+    }
+}
+
+/* Base Styles */
+.ride-container .box p {
+    margin-top: 10px; /* Base style for paragraphs in "How It Works" */
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    .ride-container .box p {
+        display: none; /* Hide all paragraphs in the "How It Works" section for mobile */
+    }
+}
