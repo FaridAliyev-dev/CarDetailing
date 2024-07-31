@@ -642,7 +642,7 @@ span {
 /* Tablets and smaller laptops */
 @media (min-width: 768px) and (max-width: 1024px) {
     .home {
-        padding: 80px 5%;
+        margin-top: 80px;
     }
 }
 
@@ -674,5 +674,11 @@ span {
 
 
 @media (min-width: 770px) {
-    
+    .button1 {
+        margin-bottom: 10px;
+    }
+
+    .app-stores {
+        justify-content: center;
+    }
 }
