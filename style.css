@@ -687,8 +687,82 @@ span {
 }
 
 
-@media (min-height: 767) {
-    .nav{
-        
+.newsletter {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.newsletter h2 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 20px; 
+}
+
+.newsletter .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 50px; 
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+    height: 62px;
+}
+
+.newsletter .box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+.newsletter .box .btn {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s; 
+    margin-left: 10px;
+}
+
+.newsletter .box .btn:hover {
+    background-color: darkred; 
+}
+
+@media (max-width: 767px) {
+
+    .newsletter .box input {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .newsletter .box .btn {
+        margin-left: 0;
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .newsletter .box {
+        max-width: 400px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .newsletter h2 {
+        text-align: center; 
     }
 }
