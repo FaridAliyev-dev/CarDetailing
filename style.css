@@ -766,3 +766,9 @@ span {
         text-align: center; 
     }
 }
+
+@media (min-height: 412px) {
+    .align {
+        text-align: center  ;
+    }
+}
