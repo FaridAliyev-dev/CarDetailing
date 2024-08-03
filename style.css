@@ -706,12 +706,12 @@ span {
     justify-content: space-between;
     align-items: center;
     background: #fff;
-    border-radius: 50px; 
+    border-radius: 50px;
     padding: 10px;
-    width: 100%;
+    width: 85%;
     max-width: 500px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     height: 62px;
 }
 
