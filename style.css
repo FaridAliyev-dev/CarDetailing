@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: red;
+    color: #082542;
     transition: color 0.3s;
 }
 
@@ -71,11 +71,11 @@ button {
 }
 
 .button2 {
-    background: red;
+    background: #0E3E6A;
 }
 
 .button2:hover {
-    background: darkred;
+    background: #082542;
     cursor: pointer;
 }
 
@@ -111,7 +111,7 @@ button {
 }
 
 .text span {
-    color: red;
+    color: #0e3e6a;
 }
 
 .text p {
@@ -209,7 +209,7 @@ i {
 
 
 span {
-    color: red;
+    color: #0e3e6a;
 }
 
 .steph1 {
@@ -284,7 +284,7 @@ span {
     padding: 10px;
     text-align: center;
     margin: 10px 0;
-    background-color: red;
+    background-color: #0E3E6A;
     color: white;
     text-decoration: none;
     border-radius: 50px;
@@ -293,7 +293,7 @@ span {
 }
 
 .btn:hover {
-    background-color: darkred;
+    background-color: #082542;
 }   
 
 .about-container {
@@ -410,7 +410,7 @@ span {
 }
 
 .newsletter .box .btn {
-    background-color: red;
+    background-color: #0E3E6A;
     color: #fff;
     padding: 10px 20px;
     border-radius: 50px;
@@ -423,7 +423,7 @@ span {
 }
 
 .newsletter .box .btn:hover {
-    background-color: darkred; 
+    background-color: #0B3155; 
 }
 
 .span-letter {
@@ -724,7 +724,7 @@ span {
 }
 
 .newsletter .box .btn {
-    background-color: red;
+    background-color: #0E3E6A;
     color: #fff;
     padding: 10px 20px;
     border-radius: 50px;
@@ -737,7 +737,7 @@ span {
 }
 
 .newsletter .box .btn:hover {
-    background-color: darkred; 
+    background-color: #082542; 
 }
 
 @media (max-width: 767px) {
@@ -771,3 +771,4 @@ span {
         text-align: center  ;
     }
 }
+
