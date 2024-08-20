@@ -320,6 +320,7 @@ span {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .review-box {
